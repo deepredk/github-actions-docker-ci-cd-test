@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/")
     public String test() {
-        return "정상작동";
+        return "테스트 서버 정상작동";
     }
 }
